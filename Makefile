@@ -3,12 +3,10 @@
 ########################################################################
 
 # Compiler settings - Can be customized.
-CC = g++
-CXXFLAGS = -std=c++11 -Wall
-LDFLAGS = 
+CC = g++ -c guile-abs.cpp -o guile-abs
 
 # Makefile settings - Can be customized.
-APPNAME = myapp
+APPNAME = guile-abs
 EXT = .cpp
 SRCDIR = src
 OBJDIR = obj
